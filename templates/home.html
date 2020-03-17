@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{%block title%}Hompage{%endblock%}
+
+{%block content%}
+
+
+<form action=# method="post">
+    <input type="text" placeholder="J-SeaRch" name="comm" style="margin:0px 10px;padding:4px 10px;border:3px rgb(43, 39, 39) ;border-right:0px;height:30px;width:400px;">
+    <input type="submit" style="height:30px;border:0px;border:3px rgb(43, 39, 39)">
+    <a href="database"><input type="button" value="Database"  style="height:30px;border:0px;border:3px rgb(43, 39, 39)"></a>
+</form>
+
+
+<br>
+
+{%if results%}
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Link</th>
+    </tr>
+
+{%for result in results%}
+<tr>
+    <td>{{result['query']}}</td>
+    <td><a href="{{result['link']}}">{{result['link']}}</a></td>
+</tr>
+{%endfor%}
+
+{%endif%}
+
+</table>
+{%endblock%}

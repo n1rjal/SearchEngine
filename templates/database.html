@@ -1,0 +1,32 @@
+{%extends "base.html"%}
+{%block content%}
+{%if links%}
+<table>
+<tr>
+    <th>NAME</th>
+    <th>LINK</th>
+</tr>
+{%for link in links%}
+
+<tr>
+    <td>{{link.name}}</td>
+    <td><a href="{{link.link}}">{{link.link}}</a></td>
+</tr>
+
+{%endfor%}
+</table>
+
+<p>
+    DID YOU KNOW!<br>
+        <code>--ignore-database</code>
+        after the query name and we will
+        search the internet instead of database
+        and we will not enter it in the database
+</p>
+{%else%}
+
+<h3>No entries in database</h3>
+
+{%endif%}
+
+{%endblock%}

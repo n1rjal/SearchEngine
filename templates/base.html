@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width",initial-scale="1">
+  <style>
+  form{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;width:100%;border:2px outset;padding:10px;text-decoration: none;font-size: 30px;padding:5px 10px;margin:auto;text-align:center;border-top:0px;padding-top:0px;margin-top: 0px}
+  input{height:100px;}
+
+  a{
+    text-decoration:none;
+  }
+
+  table {
+    margin:auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  </style>
+      {%if title%}
+      <title>{{title}}-JARVIS</title>
+      {%else%}
+      <title>JARVIS</title>
+      {%endif%}
+    </head>
+    <body>
+    
+      {%block content%}
+      {%endblock%}
+       
+</body>
+</html>

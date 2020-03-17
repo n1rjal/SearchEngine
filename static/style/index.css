@@ -1,0 +1,11 @@
+.nav-bar ul li{
+   padding:20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.nav-bar ul{
+    display: inline-block;
+}
