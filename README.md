@@ -6,20 +6,23 @@ make sure you downnload python and install the packages mentioned below
 ```
 pip install flask
 ```
-2. Beautiful Soup
+2. Sql Alchemy
 
 ```
-pip install beautifulsoup4
+pip install SQLAlchemy
 ```
 
-3. Urllib
+Removed lxml and urllib in this commit.
 
-```
-pip install urllib
-```
+##How to 
 
+Download the file and run the app.py file.
 
-4. lxml
-```
-pip  install lxml
-```
+##What is this file??
+  This app/ file is an algorithm which finds you the best website from the web 
+  If you will type"iphone" then this link will come
+      
+      [Click Here](https://www.apple.com/iphone/)
+      
+  Feel free to fork this repo and update the css.
+  Css is too dirty here. Please Help me 
