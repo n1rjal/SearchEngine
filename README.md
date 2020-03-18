@@ -21,8 +21,7 @@ Download the file and run the app.py file.
 ## What is this file??
   This app/ file is an algorithm which finds you the best website from the web 
   If you will type"iphone" then this link will come
-  [Click Here](https://www.apple.com/iphone/)
-     
+  [Click Here](https://www.apple.com/iphone/) Works 9 out of 10 times. 
 ## Database Feature
 This app will even store the best website link for you
 Peace
